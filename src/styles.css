@@ -1,0 +1,110 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  margin: 0px;
+  background-color: rgb(37, 37, 41);
+}
+.header {
+  color: rgb(238, 245, 246);
+  font-family: "Permanent Marker", cursive;
+  text-transform: uppercase;
+  position: fixed;
+  background-color: rgba(76, 80, 108, 0.676);
+  backdrop-filter: blur(100px);
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  display: flex;
+}
+
+.progress-bar {
+  transition: 0.5s;
+  height: 6px;
+  background: #21f10a;
+  width: 0%;
+}
+
+.container {
+  margin-top: 100px;
+  width: 270px;
+  float: left;
+  height: 650px;
+  color: white;
+  margin-left: 50px;
+  background-color: rgba(83, 164, 199, 0.421);
+}
+.poster {
+  width: 270px;
+  height: 370px;
+  display: flex;
+  object-fit: cover;
+  transition: 1s;
+  border-radius: 8px;
+}
+
+.poster:hover {
+  transform: scale(1.04);
+}
+
+/* 
+.border {
+  padding: 10px;
+  border-radius:10px;
+  top: -50%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.524) 20%, #fff 40%, rgb(131, 204, 231) 55%, #fff 70%, #fff 100%);
+  background-size: 500% auto;
+  animation: shine 8s linear infinite;
+}
+@keyframes shine {
+  to {
+    background-position: 100% center;
+  }
+} */
+.border {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #4e5c4cc5;
+}
+
+a {
+  background-color: greenyellow;
+  padding: 5px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-flex;
+}
+a:hover {
+  background-color: rgba(110, 178, 0, 0.793);
+  color: white;
+}
+b {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+button {
+  text-decoration: none;
+  background: none;
+  border: none;
+  color: white;
+  display: flex;
+  float: right;
+}
+
+p {
+  margin-top: 10px;
+  text-align: left;
+}
